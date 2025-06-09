@@ -1,0 +1,332 @@
+body {
+    background-color: #e0e1dd;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #263754;
+
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    top: -25px;
+
+
+}
+
+.nav h1 {
+    margin: 51px 193px 1px 56px;
+    font-size: 20px;
+    color: black;
+}
+
+.nav img {
+    width: 2%;
+    height: 124px;
+    margin: 0 0 0 8px;
+
+
+}
+
+.nav ul {
+    display: flex;
+    margin: 50px 311px 0 19px;
+
+}
+
+.nav ul li {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 32px;
+    font-size: 19px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #263754;
+    font-weight: 600;
+}
+
+.front {
+
+    display: flex;
+}
+
+.front .img-section {
+
+    width: 40%;
+    margin: 30px 50px;
+    height: 0%;
+    border: 1px solid black;
+    border-radius: 210px 210px 210px 210px;
+    padding: 19px;
+}
+
+.front-left {
+    margin: 98px 76px
+}
+
+.front-left h2 {
+    font-size: 19px;
+    text-transform: uppercase;
+    position: relative;
+    top: 32px;
+    color: #263754;
+}
+
+.front-left h1 {
+    font-size: 66px;
+    color: #0d1b2a;
+    ;
+}
+
+.front-left p {
+
+    font-size: 20px;
+}
+
+.front-left button {
+    width: 32%;
+    height: 11%;
+    border-radius: 51px;
+    font-size: 15px;
+    background-color: #1b263b;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.front-left button img {
+    width: 12%;
+    position: relative;
+    top: 6px;
+}
+
+.service {
+
+    background-color: #0d1b2a;
+    color: aliceblue;
+    padding: 2px 0 92px 0;
+
+}
+
+.s-top {
+    text-align: center;
+    margin: 0 0 75px 0;
+}
+
+.s-top button {
+    margin: 86px 0 0 0;
+    font-size: 16px;
+    color: antiquewhite;
+    background-color: #0d1b2a;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 3px 10px 2px 10px;
+}
+
+#illu {
+    font-size: 39px;
+}
+
+#s-1 {
+    background-image: url(services-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 438px 42px 44px 55px;
+    font-size: 33px;
+    border-radius: 86px;
+    color: aliceblue;
+    border: none;
+    margin: 0 17px 0 55px;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+
+}
+
+#s-2 {
+    background-image: url(services-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 379px 59px 44px 34px;
+    font-size: 33px;
+    border-radius: 86px;
+    color: aliceblue;
+    border: none;
+    margin: 0 17px 0 0;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+
+}
+
+#s-3 {
+    background-image: url(services-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 418px 35px 44px 57px;
+    font-size: 33px;
+    border-radius: 86px;
+    color: aliceblue;
+    border: none;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+
+}
+
+.work {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.w-top button {
+
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 2px 10px 2px 10px;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+
+}
+
+.w-top h1 {
+
+    font-size: 41px;
+}
+
+.w-bottom {
+    display: flex;
+    width: 95%;
+    margin: 0 0 0 35px;
+
+
+}
+
+.left img {
+    width: 89%;
+    border-radius: 105px;
+    border: 1px solid;
+    padding: 11px;
+    margin: 0 0 29px;
+}
+
+.about {
+    background-image: url(aboutbg-bg\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    margin-top: 299px;
+
+}
+
+.about img {
+    margin: -182px 103px 87px 66px;
+    width: 40%;
+    border-radius: 93px;
+}
+.about button{
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 90px 0 0 0;
+    color: aliceblue;
+    border-radius: 22px;
+    border: 1px solid;
+    background: no-repeat;
+    padding: 2px 10px 2px 10px;
+
+}
+.about-right{
+    width: 39%;
+}
+.about-right h1{
+    font-size: 42px;
+}
+.clint{
+    text-align: center;
+    margin-top: 130px;
+
+}
+.clint button{
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 22px;
+    padding: 3px 10px 3px 10px;
+}
+.clint h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.clint2{
+    display: flex;
+    margin: 98px 0 0 0;
+}
+#test{
+    width: 22%;
+    border-radius: 119px;
+    margin: 1px 0 0 142px;
+}
+#quota{
+    width: 6%;
+}
+.clint2-right{
+    width: 46%;
+    margin: 74px 0 0 69px;
+}
+.clint2-right h1{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.clint2-right p{
+    font-size: 23px;
+}
+.footer{
+    background-color: #0d1b2a;
+    display: flex
+;
+    margin: 47px 0 32px 0;
+    color: aliceblue;
+}
+.footer-left{
+    margin: 85px 15px 0 88px;
+
+}
+.footer-left h1{
+    font-size: 36px;
+}
+.footer-left p{
+    font-size: 18px;
+
+}
+.footer-right{
+    display: flex;
+    width: 44%;
+    
+    margin: 155px 0 0 0;
+}
+.footer-right img{
+       width: 8%;
+    margin: 7px 0 0px 2px;
+    height: 17px;
+}
+.footer-right button{
+    width: 38%;
+    height: 40px;
+    border: none;
+    border-radius: 29px;
+    background-color: #0e2238;
+    margin: 0 0 0 25px;
+    font-size: 20px;
+}
+.footer-right a{
+       color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+}
